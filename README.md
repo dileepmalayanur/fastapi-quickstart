@@ -1,4 +1,6 @@
-# FastAPI Quickstart #
+![logo](https://repository-images.githubusercontent.com/468820804/f71a6fc9-1440-4fb2-af4b-a716c3e7b90f)
+
+# FastAPI Quickstart App #
 
 Minimal FastAPI project for beginners.
 
