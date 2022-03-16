@@ -26,13 +26,11 @@ pip install -r requirements.txt
 ### Set Uvicorn Port (Windows) ###
 ```
 set UVICORN_PORT=7005
-uvicorn main:app --reload
 ```
 
 ### Set Uvicorn Port (Linux) ###
 ```
 export UVICORN_PORT=7005
-uvicorn main:app --reload
 ```
 
 ### Run command (Development) ###
