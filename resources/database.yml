@@ -1,0 +1,3 @@
+db:
+  url: postgresql://postgres:postgres@localhost:5432/userdb
+  max_connections: 2000

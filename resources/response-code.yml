@@ -1,0 +1,39 @@
+CODE00000:
+  description: Common success message.
+  message:
+  - Success.
+
+CODE00001:
+  description: Mismatch with username and password.
+  message:
+  - Mismatch with username and password.
+
+CODE00002:
+  description: Email address is already registered.
+  message:
+  - Email address is already registered.
+
+CODE00003:
+  description: Invalid email address format.
+  message:
+  - Invalid email address format.
+
+CODE00004:
+  description: Invalid password format.
+  message:
+  - Invalid password format.
+
+CODE00005:
+  description: Need new user activation.
+  message:
+  - Need new user activation.
+
+CODE00006:
+  description: Invalid state.
+  message:
+  - Invalid state.
+
+CODE99999:
+  description: Uncategorized failure.
+  message:
+  - Uncategorized failure.

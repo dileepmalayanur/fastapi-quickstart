@@ -4,6 +4,11 @@
 
 Minimal FastAPI project for beginners.
 
+- Supports caching. Install Redis for redis support.
+- Supports IP rate limiting.
+- Install PostgreSQL for database support (Username: postgres and Password: postgres).
+- Support Encrypted JWT for login.
+
 ### Update conda package for stable version ###
 ```
 conda config --set ssl_verify False
@@ -49,4 +54,19 @@ uvicorn main:app
 ```
 http://localhost:7005/docs
 http://localhost:7005/redoc
+```
+
+### Alembic Create Revision ###
+```
+alembic revision -m "created tables login, country and profile"
+```
+
+### Alembic Upgrade ###
+```
+alembic upgrade head
+```
+
+### Alembic Downgrade ###
+```
+alembic downgrade -1
 ```

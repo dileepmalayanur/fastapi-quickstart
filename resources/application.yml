@@ -1,0 +1,9 @@
+email-address:
+  from: support@example.com
+enable-authentication: false
+online-encryption-key: ${ONLINE_ENCRYPTION_KEY}
+offline-encryption-key: ${OFFLINE_ENCRYPTION_KEY}
+cookie:
+  domain: localhost
+  secured: false
+redis-url: redis://127.0.0.1:6379
