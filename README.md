@@ -1,4 +1,4 @@
-![logo](https://repository-images.githubusercontent.com/468820804/f71a6fc9-1440-4fb2-af4b-a716c3e7b90f)
+![logo](https://repository-images.githubusercontent.com/468820804/e681342b-6489-4c9f-b99f-404c7826c400)
 
 # FastAPI Quickstart App #
 
