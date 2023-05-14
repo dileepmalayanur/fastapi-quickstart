@@ -1,0 +1,13 @@
+version: "4.2"
+services:
+  fastapi_quickstart:
+    build: .
+    image: fastapi-quickstart
+    container_name: app
+    ports:
+      - "0.0.0.0:7005:7005"
+    environment:
+      UVICORN_PORT: 7005
+      OFFLINE_ENCRYPTION_KEY: "H3vB7bHP29LSG6Y8"
+      ONLINE_ENCRYPTION_KEY: "PzU61WFfWSGSY3cc"
+      DATABASE_HOST: "172.25.48.1"

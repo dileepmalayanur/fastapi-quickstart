@@ -2,7 +2,7 @@
 APP_PROPERTY_ENABLE_AUTHENTICATION = 'enable-authentication'
 APP_PROPERTY_ONLINE_ENCRYPTION_KEY = 'online-encryption-key'
 
-COOKIE_NAME_FASTAPI_AUTH = 'fastapi-auth'
+COOKIE_NAME_FASTAPI_AUTH = 'fastapi-quickstart-auth'
 COOKIE_LIFETIME_IN_SECONDS = 24 * 60 * 60
 
 REQUEST_HEADER_AUTHORIZATION = 'Authorization'

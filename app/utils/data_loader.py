@@ -18,8 +18,8 @@ def load_country_data():
 
     country_file.close()
 
-    meta = MetaData(bind=op.get_bind())
-    meta.reflect(only=('country',))
+    meta = MetaData()
+    meta.reflect(only=('country',), bind=op.get_bind())
     country_table = Table('country', meta)
     op.bulk_insert(country_table, countries_data, True)
     print('Loaded ', len(countries_data), ' countries to database.')
