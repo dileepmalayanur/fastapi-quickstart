@@ -7,7 +7,8 @@ Minimal FastAPI project for beginners.
 - Supports caching. Install Redis for redis support.
 - Supports IP rate limiting.
 - Install PostgreSQL for database support (Username: postgres and Password: postgres).
-- Support Encrypted JWT for login.
+- Supports Encrypted JWT for login.
+- Supports Docker.
 
 ## When you have Docker installed
 ### Check IP Address of Docker network (Linux) ###
