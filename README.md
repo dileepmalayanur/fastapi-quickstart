@@ -1,4 +1,4 @@
-![fastapi-quickstart](https://github.com/dileepmalayanur/fastapi-quickstart/assets/83858483/e0430b83-4b88-47a6-a973-f576b2bf86f9)
+![fastapi-quickstart](https://repository-images.githubusercontent.com/468820804/16c842e1-7114-4a86-9585-5e73bbc23a26)
 
 # FastAPI Quickstart App #
 
